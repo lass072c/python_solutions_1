@@ -1,0 +1,138 @@
+Index: S0100_test.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/S0100_test.py b/S0100_test.py
+new file mode 100644
+--- /dev/null	(date 1732796089525)
++++ b/S0100_test.py	(date 1732796089525)
+@@ -0,0 +1,36 @@
++"""
++Opgave "Test pycharm og github":
++
++Som altid skal du læse hele opgavebeskrivelsen omhyggeligt, før du begynder at løse opgaven.
++
++Kopier denne fil til din egen løsningsmappe.
++    I opgaver-projektet skal du klikke på filnavnet i vinduet Project og trykke CTRL+C.
++    Skift til løsningsprojektet, klik på hovedmappen i vinduet Project og tryk CTRL+V.
++
++Rediger kun din kopi.
++
++Kør programmet med shift+f10 (eller klik på det grønne "play"-ikon)
++I konsollen burde vises:
++        hello world
++        Process finished with exit code 0
++
++I programkoden ændre teksten mellem anførselstegnene.
++Kør programmet igen.
++
++Commit filen til dit eget git-repository (commit betyder: sikkerhedskopier den aktuelle tilstand af dine filer som en ny version)
++    - klik på "Git", og derefter på "Commit" (eller CTRL+K)
++    - skriv en meningsfuld kommentar
++    - klik på "commit and push" (push betyder: upload dette commit til github)
++    - klik på "push"
++
++Kontroller i din webbrowser på github.com, at den ændrede fil er til stede i dit repository på github.
++
++På GitHub-websiden for dit repository skal du klikke på "Settings" (indstillinger) og sikre dig, at dit repository er offentligt (General, Change repository visibility).
++
++Hvis du ikke allerede har gjort det, skal du sende din lærer url'en til dit github-løsningsrepositorium via Teams-chat.
++URL'en ser ud som https://github.com/dit_brugernavn/Solutions.git
++
++Derefter går du videre med den næste fil.
++"""
++
++print("hello world")
+Index: .idea/inspectionProfiles/profiles_settings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/inspectionProfiles/profiles_settings.xml b/.idea/inspectionProfiles/profiles_settings.xml
+new file mode 100644
+--- /dev/null	(date 1732796262348)
++++ b/.idea/inspectionProfiles/profiles_settings.xml	(date 1732796262348)
+@@ -0,0 +1,6 @@
++<component name="InspectionProjectProfileManager">
++  <settings>
++    <option name="USE_PROJECT_PROFILE" value="false" />
++    <version value="1.0" />
++  </settings>
++</component>
+\ No newline at end of file
+Index: .idea/python_solutions.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/python_solutions.iml b/.idea/python_solutions.iml
+new file mode 100644
+--- /dev/null	(date 1732796283930)
++++ b/.idea/python_solutions.iml	(date 1732796283930)
+@@ -0,0 +1,10 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="PYTHON_MODULE" version="4">
++  <component name="NewModuleRootManager">
++    <content url="file://$MODULE_DIR$">
++      <excludeFolder url="file://$MODULE_DIR$/.venv" />
++    </content>
++    <orderEntry type="jdk" jdkName="Python 3.13 (python_solutions)" jdkType="Python SDK" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+new file mode 100644
+--- /dev/null	(date 1732796262224)
++++ b/.idea/modules.xml	(date 1732796262224)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/.idea/python_solutions.iml" filepath="$PROJECT_DIR$/.idea/python_solutions.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(date 1732796262558)
++++ b/.idea/vcs.xml	(date 1732796262558)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/.gitignore b/.idea/.gitignore
+new file mode 100644
+--- /dev/null	(date 1732796261905)
++++ b/.idea/.gitignore	(date 1732796261905)
+@@ -0,0 +1,8 @@
++# Default ignored files
++/shelf/
++/workspace.xml
++# Editor-based HTTP Client requests
++/httpRequests/
++# Datasource local storage ignored files
++/dataSources/
++/dataSources.local.xml
